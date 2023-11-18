@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color:yellow;
+    padding: 10px;
+    text-align: end;
+}
+nav ul li{
+    float: left;
+    font-weight:10px;
+    color: black;
+    font-weight: bolder;
+    /* margin-left: 12px; */
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    border: 2px solid rgb(81, 0, 128);
+}
+
+#container{
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    overflow: hidden;
+    
+
+}
+ .btn{
+    background-color: yellow;
+    color: black;
+    border: 2px solid black;
+    margin: 14px;
+    padding: 14px;
+    border-radius: 12px;
+    width: 39%;
+    font-weight: bolder;
+    
+}
+.btn:hover{
+    background-color:grey;
+    color: black;
+    border: 2px solid black;
+    margin: 14px;
+    padding: 14px;
+    border-radius: 12px;
+    width: 39%;
+    font-weight: bolder;
+    
+}
+.box1{
+
+    color: white;
+    width: 48%; 
+    float: left;
+    margin-right: 2%;
+    background-color: #060505;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+.boxb1{
+    width: 100%; 
+    float: right;
+    margin-right: 2%;
+    background-color: #060505;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.box1 h1{
+    margin: 20px;
+    padding: 10px;
+}
+.box1 p{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+.box1{
+    flex-direction: column;
+    text-align: left;
+    justify-content: center;
+    box-sizing: content-box;
+    /* border: 2px solid yellow; */
+}
+
+form h1 {
+    color: yellow;
+    font-weight: bolder;
+    margin: 10px;
+    padding: 10px;
+}
+ form input{
+    border: 1px solid yellow;
+    border-radius: 32px;
+    background-color: black;
+    color: yellow;
+    margin: 8px;
+    padding: 15px;
+    width: 93%;
+    justify-content:center ;
+    align-items: center;
+    margin-left: 50px;
+    font-size: larger;
+
+ }
+.numcity{
+    display: inline;
+    display:flex ;
+    flex-direction:row;
+}
+.submit{
+    background-color: yellow;
+    border: 2px solid black;
+    color: black;
+    margin: 18px;
+    padding: 15px;
+    border-radius: 85px;
+    width: 14%;
+    font-weight: bolder;
+    margin-left: 43%;
+    font-size: 12px;
+    
+}
+.submit:hover{
+    background-color:grey;
+    border: 2px solid black;
+    color: black;
+    margin: 18px;
+    padding: 15px;
+    border-radius: 85px;
+    width: 14%;
+    font-weight: bolder;
+    margin-left: 43%;
+    font-size: 12px;
+    
+}
+
+
+table{
+    color: yellow;
+    width: 97%;
+    height: 100%;
+    /* border: 2px solid yellow; */
+    margin: 12px;  
+    padding: 12px;
+}
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border: 2px solid yellow;
+}
+
+.last{
+background-color: yellow;
+color: black;
+
+}
